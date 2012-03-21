@@ -1,8 +1,8 @@
 # MATLAB FS12 – Research Plan (in progress...)
 
- * Group Name: the critical cyclones
+ * Group Name: the critics
  * Group participants name: Xinyi Chen, Artemi Egorov, Pegah Kassraian Fard
- * Project Title: ...........
+ * Project Title: sandpile models in self-organized criticality
  
 ## General Introduction
 

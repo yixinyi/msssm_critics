@@ -6,9 +6,12 @@
  
 ## General Introduction
 
-(States your motivation clearly: why is it important / interesting to solve this problem?)
-(Add real-world examples, if any)
-(Put the problem into a historical context, from what does it originate? Are there already some proposed solutions?)
+
+Science endeavors to understand how the existing world works. Although particle physicists nowadays are approaching more than ever the most fundamental laws of Nature, this will not change essentialy the complexity nature of the real physical world, where the many-body systems are modelled as dynamical systems governed by highly non-linear equations that we barely know how to solve. However, simple rules might emerge, like the simple power-law in critical systems, or the nice fractal patterns, etc. 
+
+We would like, thus, to study, in particular, "Self organized criticality (SOC)", which describes the tendency of strongly dissipative systems to drive themselves to a critical state, without any external tuning parameter, e.g. the temperature for an equilibrium thermodynamic system. This idea seems to provide a unifying large scale behaviour in systems with many degrees of freedom, as a complementary idea of 'Chaos', wherein simple systems with a small number of degrees of freedom display complex behaviour.  
+
+Despite nowadays many authors try to explain a vast range of systems with SOC, there seems to be none satisfying general understanding of SOC. Therefore, we will study the classical paradigm of the sandpile model in this project, as we aim at a better understanding of the SOC phenomenon. We will adopt the mean field approximation, which gives a comprehensive insight for SOC, and we will try to investigate the limit of SOC behavior in more physical sanpile models.
 
 ## The Model
 

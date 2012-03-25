@@ -2,7 +2,7 @@
 
  * Group Name: the critics
  * Group participants name: Xinyi Chen, Artemi Egorov, Pegah Kassraian Fard
- * Project Title: sandpile models in self-organized criticality
+ * Project Title: self-organized criticality in sandpile models
  
 ## General Introduction
 

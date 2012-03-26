@@ -6,11 +6,11 @@
  
 ## General Introduction
 
-The physical world is full of complex systems, where we used to model them as dynamical systems governed by highly non-linear equations but we barely know how to solve. Despite its nonanalicity, simple and regular rules might manifest, like the simple power-law in critical systems, or the emergence of fractal patterns, etc. Computer simulations allow us to study the complexity in a much more comprehensive way.
+The physical world is full of complex systems, which, in order to study them, we used to model them as dynamical systems, but governed by highly non-linear equations that we barely know how to solve them. Despite the nonanalicity, simple and regular rules might manifest in complex systems, like the simple power-law in critical systems, or the emergence of fractal patterns, etc. Moreoever, computer simulations allow us to study the complexity in a much more comprehensive way.
 
-We would like, thus, to study, in particular, "Self organized criticality (SOC)", which describes the tendency of strongly dissipative systems to drive themselves to a critical state, without any external tuning parameter, e.g. the temperature for an equilibrium thermodynamic system. This idea seems to provide a unifying large scale behaviour in systems with many degrees of freedom, as a complementary idea of 'Chaos', wherein simple systems with a small number of degrees of freedom display complex behaviour.
+We would like, thus, to study in particular, "Self organized criticality (SOC)", which describes the tendency of strongly dissipative systems to drive themselves to a critical state, without any external tuning parameter, e.g. the temperature for an equilibrium thermodynamic system. This idea seems to provide a unifying large scale behaviour in systems with many degrees of freedom, as a complementary idea of 'Chaos', wherein simple systems with a small number of degrees of freedom display complex behaviour.
 
-Despite nowadays many authors try to explain a vast range of systems with SOC, there seems to be none satisfying general understanding of SOC. Therefore, we will study the classical paradigm of the sandpile model in this project, as we aim at a better understanding of the SOC phenomenon. We will adopt the mean field approximation, which gives a comprehensive insight for SOC, and we will try to investigate the limit of SOC behavior in more physical sanpile models.
+Despite nowadays many authors try to explain a vast range of systems with SOC, there seems to be none satisfying general understanding of SOC. Therefore, we will study the classical paradigm of the sandpile model as a cellula automaton and investigate its possibilities, as we aim at a better understanding of the SOC phenomenon. 
 
 ## The Model
 

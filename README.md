@@ -15,6 +15,7 @@ Despite nowadays many authors try to explain a vast range of systems with SOC, t
 ## The Model
 
 Sandpile models are cellular automata with a variable (we model with the gravitational potential energy of each grain) defined in a d-dimensional lattice. At each time step an energy grain is added to a randomly chosen site, until the energy of a site reaches a threshold. When this happens the site relaxes and the energy is transferred to the nearest neighbors, which can relax on their turn too. New active sites can generate other relaxations and so on, eventually giving rise to an avalanche. The distribution of avalanches according to the their size follows a power law, which is attributed to the phenomenon of SOC. 
+
 However, these models suppose many idealizations, e.g. the average energy conservation and instantaneous driving time between different avalanches. In order to understand better SOC, in this project, we adopt the mean field model [1] and investigate more complex sandpile models introducing, for example average energy dissipation, finite driving time, etc, and also, study if there is any dependence on the dimensionality of the lattice in the manifestation of SOC. 
 
 

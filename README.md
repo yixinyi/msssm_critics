@@ -6,8 +6,7 @@
  
 ## General Introduction
 
-
-Science endeavors to understand how the existing world works. Although particle physicists nowadays are approaching more than ever the most fundamental laws of Nature, this will not change essentialy the complexity nature of the real physical world, where the many-body systems are modelled as dynamical systems governed by highly non-linear equations that we barely know how to solve. However, simple rules might emerge, like the simple power-law in critical systems, or the nice fractal patterns, etc. 
+The physical world is full of complex systems, where we used to model them as dynamical systems governed by highly non-linear equations but we barely know how to solve. Despite its nonanalicity, simple and regular rules might manifest, like the simple power-law in critical systems, or the emergence of fractal patterns, etc. Computer simulations allow us to study the complexity in a much more comprehensive way.
 
 We would like, thus, to study, in particular, "Self organized criticality (SOC)", which describes the tendency of strongly dissipative systems to drive themselves to a critical state, without any external tuning parameter, e.g. the temperature for an equilibrium thermodynamic system. This idea seems to provide a unifying large scale behaviour in systems with many degrees of freedom, as a complementary idea of 'Chaos', wherein simple systems with a small number of degrees of freedom display complex behaviour.
 
@@ -15,40 +14,42 @@ Despite nowadays many authors try to explain a vast range of systems with SOC, t
 
 ## The Model
 
-(Define dependent and independent variables you want to study. Say how you want to measure them.) (Why is your model a good abtraction of the problem you want to study?) (Are you capturing all the relevant aspects of the problem?)
+Sandpile models are cellular automata with a variable (we model with the gravitational potential energy of each grain) defined in a d-dimensional lattice. At each time step an energy grain is added to a randomly chosen site, until the energy of a site reaches a threshold. When this happens the site relaxes and the energy is transferred to the nearest neighbors, which can relax on their turn too. New active sites can generate other relaxations and so on, eventually giving rise to an avalanche. The distribution of avalanches according to the their size follows a power law, which is attributed to the phenomenon of SOC. 
+However, these models suppose many idealizations, e.g. the average energy conservation and instantaneous driving time between different avalanches. In order to understand better SOC, in this project, we adopt the mean field model [1] and investigate more complex sandpile models introducing, for example average energy dissipation, finite driving time, etc, and also, study if there is any dependence on the dimensionality of the lattice in the manifestation of SOC. 
+
 
 
 ## Fundamental Questions
 
 At the end of the project we want to find the answer to these questions:
 
- * What are the main characteristics of SOC?
- * What different models do exist and what are their differences?
- ** sandpile model (main focus)
- ** forest fire model (FF)
- ** mean field approach (MF)
- * What are the possibilities/constraints of the sandpile model and how can we expand its functionality?
+ * What characterizes SOC?
+ * Can SOC be understood in a general framework of criticality, i.e. with an order parameter and external triggering? 
+ * Is the mean field approximation the right approach to model SOC?
  * What benefits/insights can we gain from applying the mean field theory?
- * How do we implement SOC in a simulation environment?
+ * Why (classical) sandpile models manifest SOC? 
+ * What are the possibilities/constraints of the sandpile model and how can we expand its functionality?
  * What is the practical value of SOC and the related models and the sandpile model in particular?
+ * What different models of SOC exist and what are their differences?
+ * How do we implement SOC in a simulation environment?
+
 
 
 ## Expected Results
-
-(What are the answers to the above questions that you expect to find before starting your research?)
-
-...
+ * We expect the mean field approach to give a unified picture of SOC in critical systems.
+ * We expect SOC to be a particular case of criticality when certain specfic conditions hold.
+ * We expect our more realistic sandpile models to not hold (maybe partially) the SOC behaviour.
+ 
 
 
 ## References 
 
-(Add the bibliographic references you intend to use)
 (Explain possible extension to the above models)
 (Code / Projects Reports of the previous year)
 
- * How self-organized criticality works: A uniﬁed mean-ﬁeld picture; Alessandro Vespignani and Alessandro Vespignani; June 1998
- * Fluctuations and Correlations in Sandpile Models; Alain Barrat, Alessandro Vespignani and Stefano Zapperi; September 1999
- * Cellular automata and self-organized criticality; Michael Creutz; November 1996
+ * [1] How self-organized criticality works: A uniﬁed mean-ﬁeld picture; Alessandro Vespignani and Alessandro Vespignani; June 1998
+ * [2] Fluctuations and Correlations in Sandpile Models; Alain Barrat, Alessandro Vespignani and Stefano Zapperi; September 1999
+ * [3] Cellular automata and self-organized criticality; Michael Creutz; November 1996
 
 
 ## Research Methods

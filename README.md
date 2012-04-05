@@ -36,6 +36,7 @@ At the end of the project we want to find the answer to these questions:
 
 
 
+
 ## Expected Results
 
  * We expect the mean field approach to give a unified picture of SOC in critical systems.

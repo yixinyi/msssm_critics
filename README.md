@@ -26,7 +26,6 @@ At the end of the project we want to find the answer to these questions:
 
  * What characterizes SOC?
  * Can SOC be understood in a general framework of criticality, i.e. with an order parameter and external triggering?
- * Is the mean field approximation the right approach to model SOC?
  * What benefits/insights can we gain from applying the mean field theory?
  * Why (classical) sandpile models manifest SOC? 
  * What are the possibilities/constraints of the sandpile model and how can we expand its functionality?
